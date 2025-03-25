@@ -1,4 +1,3 @@
 <div>В моей комнате {{myRoom.length}} человек{{myRoom.length > 1 && myRoom.length < 5 ? "а" : ""}}:
-    <div *ngFor="let roommate of myRoom; let i = index">{{i + 1}}: {{roommate.name}}</div>
-    <div>Капец, у меня {{myRoom.length}}-местный номер, получается</div>
+    <div *ngFor="let roommate of myRoom; let i = index">{{i + 1}}: {{roommate.name | roommatePipe}}</div>
 </div>
