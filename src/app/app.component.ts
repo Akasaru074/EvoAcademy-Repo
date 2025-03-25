@@ -8,10 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Blabla';
 
-  myRoom = [
-    {name: "Артём"},
-    {name: "Егор"},
-    {name: "Ваня"},
+  records = [
+    {'recordDate': new Date(2018, 3, 24)},
+    {'recordDate': new Date(2019, 8, 6)},
+    {'recordDate': new Date(2023, 1, 18)},
+    {'recordDate': new Date(2025, 1, 3)},
   ];
 
 }
