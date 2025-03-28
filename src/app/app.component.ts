@@ -8,10 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Blabla';
 
-  myRoom = [
-    {name: "Артём"},
-    {name: "Егор"},
-    {name: "Ваня"},
-  ];
-
 }

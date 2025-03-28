@@ -1,3 +1,5 @@
-<div>В моей комнате {{myRoom.length}} человек{{myRoom.length > 1 && myRoom.length < 5 ? "а" : ""}}:
-    <div *ngFor="let roommate of myRoom; let i = index">{{i + 1}}: {{roommate.name | roommatePipe}}</div>
-</div>
+<a routerLink="/">Главная страница</a>
+<br>
+<a routerLink="about">О компании</a>
+
+<router-outlet></router-outlet>
