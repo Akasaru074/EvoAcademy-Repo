@@ -1,19 +1,18 @@
-import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-item',
   templateUrl: './item.component.html',
   styleUrls: ['./item.component.css']
 })
-export class ItemComponent implements OnInit {
+export class ItemComponent {
 
-  constructor(private activeRouter: ActivatedRoute) {
+  // constructor(private activeRouter: ActivatedRoute) {
 
-  }
+  // }
 
-  ngOnInit(): void {
-    console.log(this.activeRouter.snapshot.params);
-  }
+  // ngOnInit(): void {
+  //   console.log(this.activeRouter.snapshot.params);
+  // }
 
 }
